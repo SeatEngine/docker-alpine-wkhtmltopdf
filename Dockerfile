@@ -1,5 +1,5 @@
-FROM alpine:3.8
-MAINTAINER Fabian Beuke <mail@beuke.org>
+FROM elixir:1.7-alpine
+MAINTAINER Bill Centinaro <bill@theresnobox.net>
 
 RUN apk add --update --no-cache \
     libgcc libstdc++ libx11 glib libxrender libxext libintl \
