@@ -9,5 +9,3 @@ RUN apk add --update --no-cache \
 # on alpine static compiled patched qt headless wkhtmltopdf (47.2 MB)
 # compilation takes 4 hours on EC2 m1.large in 2016 thats why binary
 COPY wkhtmltopdf /bin
-
-ENTRYPOINT ["wkhtmltopdf"]
